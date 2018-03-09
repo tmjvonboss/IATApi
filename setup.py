@@ -9,7 +9,7 @@ except ImportError:
     from setuptools import setup
 
 # detect the current version
-with open('line_api/__init__.py') as f:
+with open('IATApi/__init__.py') as f:
     version = re.search(r'__version__\s*=\s*\'(.+?)\'', f.read()).group(1)
 assert version
 
